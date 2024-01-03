@@ -1,4 +1,7 @@
-# テーブル設計
+
+
+# データベース設計
+[![Image from Gyazo](https://i.gyazo.com/8cc9a52f3f6ccd9d4ab4c6c181e3b781.png)](https://gyazo.com/8cc9a52f3f6ccd9d4ab4c6c181e3b781)
 ## users テーブル
 | Column                 | Type     | Options                   |
 | -----------------------| -------- | ------------------------- |
