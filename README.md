@@ -8,6 +8,9 @@ problem
 そこに大きな価値があると考える。
 本アプリは、そんな「課題発見」に重きを重きをおき、そのサポートができるアプリとする。
 
+# 要件定義
+https://docs.google.com/spreadsheets/d/1YIhs6jYhF6VZusfka8yasIxwCVkHVKDxwH6N3OwA_Ak/edit#gid=982722306
+
 # データベース設計
 [![Image from Gyazo](https://i.gyazo.com/8cc9a52f3f6ccd9d4ab4c6c181e3b781.png)](https://gyazo.com/8cc9a52f3f6ccd9d4ab4c6c181e3b781)
 ## users テーブル
