@@ -9,11 +9,35 @@
 .side-bar-header {
   height: 100px;
   padding: 0 20px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-name a{
+  font-size: 16px;
+  color: blue;
+  text-decoration: none;
+}
+.create-room a {
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: blue;
+  text-decoration: none;
 }
 .problem-list {
   background-color: aliceblue;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+.problem {
+  padding: 20px 0 20px;
+}
+.problem-title a {
+  text-decoration: none;
+  color: blue;
 }
 .main {
   background-color: #FFFFFF;
