@@ -46,11 +46,97 @@
 .main-header {
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-title {
+  color: #333;
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+.header-button {
+  margin-top: 40px;
+}
+
+.header-button a {
+  text-decoration: none;
+  border: 1px solid darkred;
+  color: darkred;
+  padding: 20px;
 }
 .problems {
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 200px);
   padding: 46px 40px 0;
+  overflow: scroll;
+}
+.problem-content {
+  margin: 10px 0 0 0;
+}
+
+.upper-content{
+  display: flex;
+}
+
+.problem-user {
+  color: #434a54;
+  font-size: 16px;
+}
+
+.problem-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lower-content {
+  margin-top: 10px;
+}
+
+.problem-title {
+  color: #434a54;
+  font-size: 14px;
+}
+
+.standpoint {
+  color: #434a54;
+  font-size: 14px;
+}
+
+.content {
+  color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.comment {
+  margin: 10px 0 0 0;
+}
+
+.upper-comment{
+  display: flex;
+}
+
+.comment-user {
+  color: #434a54;
+  font-size: 16px;
+}
+
+.comment-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lower-comment {
+  margin-top: 10px;
+}
+
+.comment-content {
+  color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px;
 }
 .form {
   background-color: #DDDDDD;
