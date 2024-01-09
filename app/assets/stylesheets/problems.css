@@ -66,9 +66,9 @@
   padding: 20px;
 }
 .problems {
-  background-color: #FAFAFA;
-  height: calc(100vh - 100px - 90px);
-  padding: 46px 40px 0;
+  background-color: #b3b3b3;
+  height: 200px;
+  padding: 40px 40px 0;
   overflow: scroll;
 }
 .problem-content {
@@ -80,13 +80,13 @@
 }
 
 .problem-user {
-  color: #434a54;
-  font-size: 16px;
+  color: yellow;
+  font-size: 20px;
 }
 
 .problem-date {
-  color: #999;
-  font-size: 12px;
+  color: yellow;
+  font-size: 16px;
   padding-left: 10px;
 }
 
@@ -95,19 +95,28 @@
 }
 
 .problem-title {
-  color: #434a54;
-  font-size: 14px;
+  color: yellow;
+  font-size: 18px;
+  margin: 0 0 5px 0;
 }
 
 .standpoint {
-  color: #434a54;
-  font-size: 14px;
+  color: yellow;
+  font-size: 18px;
+  margin: 0 0 5px 0;
 }
 
 .content {
-  color: #434a54;
-  font-size: 14px;
+  color: yellow;
+  font-size: 18px;
   margin-bottom: 40px;
+}
+
+.comments {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 200px - 90px);
+  padding: 46px 40px 0;
+  overflow: scroll;
 }
 
 .comment {
